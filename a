@@ -5,7 +5,7 @@ local workspace = game:GetService("Workspace");
 
 -- variables
 local localPlayer = players.LocalPlayer;
-while task.wait() do local camera = workspace.CurrentCamera end
+local camera = workspace.CurrentCamera
 local viewportSize = camera.ViewportSize;
 local container = Instance.new("Folder",
 	gethui and gethui() or game:GetService("CoreGui"));
